@@ -48,7 +48,7 @@ public class Request {
         return headers;
     }
 
-    private static class RequestBuilder {
+    static class RequestBuilder {
 
         private String method;
 
